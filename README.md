@@ -16,7 +16,7 @@ This project studies U.S. mortgage lending patterns in the 2024 Home Mortgage Di
 
 ## Dataset information
 
-The analysis uses the 2024 HMDA national Loan/Application Register (LAR) data. Obtain the raw source from the [official 2024 HMDA data-publication page](https://ffiec.cfpb.gov/data-publication/2024); the [snapshot national loan-level dataset page](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2024) describes the static national release and its privacy modifications. The local `HMDA_2024_Data_Dictionary.xlsx` is retained as a reference and copied to `results/tables/`.
+The analysis uses the 2024 HMDA national Loan/Application Register (LAR) data. Obtain the raw source from the [official 2024 HMDA data-publication page](https://ffiec.cfpb.gov/data-publication/2024); the [snapshot national loan-level dataset page](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2024) describes the static national release and its privacy modifications. The local `HMDA_2024_Data_Dictionary.xlsx` is retained as a reference and copied to `results/`.
 
 Raw LAR files and derived row-level Parquet datasets are deliberately excluded from version control. Put downloaded data outside the repository (or in an ignored `raw/` directory), then update the data-root variables in the setup cells of the notebooks before execution. The copied notebooks retain their original Google Colab paths so that their historical computations and outputs remain unchanged.
 
@@ -31,15 +31,14 @@ Raw LAR files and derived row-level Parquet datasets are deliberately excluded f
 │   ├── pandas/       # eight Pandas notebooks and shared helpers
 │   ├── spark/        # five PySpark notebooks and rules helper
 │   └── comparison/   # five correctness/performance/model comparison notebooks
-├── results/
-│   ├── tables/       # 221 deduplicated aggregated CSV/XLSX outputs
-│   └── figures/
-│       ├── used_in_report/  # 10 figures from the authoritative legacy figure/ folder
-│       └── supplementary/   # 44 additional, non-duplicate figures
+├── results/           # 221 deduplicated aggregated CSV/XLSX outputs
+├── figures/
+│   ├── used_in_report/  # 10 figures from the authoritative legacy figure/ folder
+│   └── supplementary/   # 44 additional, non-duplicate figures
 └── report/            # final_report.pdf was not supplied in the workspace
 ```
 
-The legacy `notebooks/`, `figure/`, `hmda/`, `HMDA_Thuy/`, and data/archive folders are intentionally retained locally and ignored by Git. `src/` and `results/` are the publishable, organized copies.
+The legacy `notebooks/`, `figure/`, `hmda/`, `HMDA_Thuy/`, and data/archive folders are intentionally retained locally and ignored by Git. `src/`, `results/`, and `figures/` are the publishable, organized copies.
 
 ## Technology stack
 
@@ -59,11 +58,11 @@ Parallel implementations are available in `src/pandas/` and `src/spark/`. The co
 
 ## Cross-engine correctness
 
-`src/comparison/` contains the RQ1, RQ2, RQ3, Logistic Regression, and gradient-boosting comparison notebooks. Result tables include matched-key, value-difference, schema, and runtime checks. For example, `results/tables/rq3_benchmark/pandas_spark_correctness_summary.csv` records `PASS` for the collected RQ3 comparisons, and `results/tables/xgboost_spark_benchmark/23_test_metrics_comparison.csv` records equal final Python/Spark XGBoost metrics.
+`src/comparison/` contains the RQ1, RQ2, RQ3, Logistic Regression, and gradient-boosting comparison notebooks. Result tables include matched-key, value-difference, schema, and runtime checks. For example, `results/pandas_spark_correctness_summary.csv` records `PASS` for the collected RQ3 comparisons, and `results/23_test_metrics_comparison.csv` records equal final Python/Spark XGBoost metrics.
 
 ## Performance and scalability
 
-Benchmark outputs are retained under `results/tables/rq3_benchmark/`, `results/tables/rq4_baseline_benchmark/`, `results/tables/benchmark/`, and `results/tables/xgboost_spark_benchmark/`. They retain timing trials, summaries, schedules, workload results, and model benchmarks without row-level prediction files.
+Benchmark outputs are retained directly under `results/`. Where different tables shared a filename, the name is prefixed with its former workflow path (for example, `rq3_benchmark__benchmark_summary.csv`) so no output is overwritten. The collection retains timing trials, summaries, schedules, workload results, and model benchmarks without row-level prediction files.
 
 ## Predictive modeling
 
@@ -88,7 +87,7 @@ Execution was not rerun during repository organization: this avoids changing sam
 
 ## Figures and tables
 
-All 10 files that were in the authoritative legacy `figure/` directory are in `results/figures/used_in_report/`:
+All 10 files that were in the authoritative legacy `figure/` directory are in `figures/used_in_report/`:
 
 - `01_financial_boxplots.png`
 - `02_denial_by_dti_cltv.png`
@@ -101,7 +100,7 @@ All 10 files that were in the authoritative legacy `figure/` directory are in `r
 - `lender_portfolio_composition.png`
 - `model_process.png`
 
-Every other discovered, non-duplicate figure is in `results/figures/supplementary/`, retaining its originating `hmda/` or `HMDA_Thuy/` path. `results/tables/` contains 221 deduplicated aggregated CSV/XLSX artifacts, organized by their original producing workflow. It includes outcomes, financial profiles, DTI/CLTV, geography/lenders, correctness, benchmarks, Logistic Regression, and XGBoost outputs.
+Every other discovered, non-duplicate figure is in `figures/supplementary/`, retaining its originating `hmda/` or `HMDA_Thuy/` path. `results/` contains 221 deduplicated aggregated CSV/XLSX artifacts as direct files. It includes outcomes, financial profiles, DTI/CLTV, geography/lenders, correctness, benchmarks, Logistic Regression, and XGBoost outputs.
 
 ## Key findings
 
