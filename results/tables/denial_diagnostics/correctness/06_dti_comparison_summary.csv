@@ -1,0 +1,4 @@
+﻿metric,rows_checked,max_abs_difference,tolerance,match
+applications,88,0.0,0.0,True
+group_total,88,0.0,0.0,True
+share_within_group_pct,88,0.0,1e-09,True

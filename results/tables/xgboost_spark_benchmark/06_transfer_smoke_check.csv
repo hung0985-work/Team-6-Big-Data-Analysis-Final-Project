@@ -1,0 +1,6 @@
+check,match
+Same number of rows,True
+Same application IDs,True
+Same labels,True
+Same sample weights,True
+Same encoded feature values,True

@@ -1,0 +1,12 @@
+﻿group,Income,Loan amount,CLTV,Property value
+All denied applications,82.0,125000.0,74.513,355000.0
+Debt-to-income ratio,67.0,125000.0,74.274,395000.0
+Credit history,78.0,95000.0,70.07,275000.0
+Collateral,100.0,125000.0,81.6545,345000.0
+Other,90.0,135000.0,74.44149999999999,345000.0
+Credit application incomplete,100.0,125000.0,69.861,395000.0
+Unverifiable information,88.0,155000.0,75.0,335000.0
+"Insufficient cash (downpayment, closing costs)",70.0,165000.0,80.0,205000.0
+Employment history,66.0,155000.0,80.0,315000.0
+Mortgage insurance denied,92.0,235000.0,94.82,295000.0
+No valid reason in cleaned data,73.0,105000.0,83.5,275000.0

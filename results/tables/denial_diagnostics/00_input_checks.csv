@@ -1,0 +1,3 @@
+﻿prepared_by,rows,expected_rows,rows_match,required_columns_available
+Pandas,2103462,2103462,True,True
+Spark,2103462,2103462,True,True

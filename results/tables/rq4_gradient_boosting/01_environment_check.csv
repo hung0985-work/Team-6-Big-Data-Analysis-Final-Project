@@ -1,0 +1,8 @@
+﻿software,hung_version,your_version,same_version
+python,3.13.18,3.13.18,True
+numpy,2.4.6,2.4.6,True
+pandas,2.2.3,2.2.3,True
+scipy,1.16.3,1.16.3,True
+scikit_learn,1.6.1,1.6.1,True
+pyarrow,23.0.1,23.0.1,True
+joblib,1.6.0,1.6.0,True

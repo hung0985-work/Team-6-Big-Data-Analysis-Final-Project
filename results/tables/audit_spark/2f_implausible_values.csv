@@ -1,0 +1,5 @@
+rule,rows
+income_le_0,165254
+loan_amount_le_0,0
+cltv_gt_250,3680
+property_value_le_0,0

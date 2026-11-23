@@ -1,0 +1,2 @@
+﻿sample,total_records,originated,denied,denial_rate_pct,source,engine
+S1: originated and denied,8300547,6197085,2103462,25.341245582971823,/content/drive/MyDrive/hmda/clean_pandas/S1_orig_denied,Pandas

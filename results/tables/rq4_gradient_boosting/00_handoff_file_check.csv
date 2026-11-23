@@ -1,0 +1,10 @@
+﻿item,exists,path
+Modeling data,True,/content/drive/MyDrive/hmda/clean_pandas/S1_orig_denied
+Master configuration,True,/content/drive/MyDrive/hmda/rq4_setup/master_modeling_config.json
+Lender train/test split,True,/content/drive/MyDrive/hmda/rq4_setup/lender_train_test_split.csv
+Saved train/test indices,True,/content/drive/MyDrive/hmda/rq4_setup/train_test_indices.npz
+Lender CV folds,True,/content/drive/MyDrive/hmda/rq4_setup/lender_cv_fold_assignment.csv
+Saved CV fold array,True,/content/drive/MyDrive/hmda/rq4_setup/cv_fold_assignment.npy
+Gradient Boosting preprocessor,True,/content/drive/MyDrive/hmda/rq4_setup/gb_preprocessor.joblib
+Evaluation utilities,True,/content/drive/MyDrive/hmda/rq4_setup/evaluation_utils.py
+Logistic Regression summary,True,/content/drive/MyDrive/hmda/rq4_logistic/lr_model_summary.json

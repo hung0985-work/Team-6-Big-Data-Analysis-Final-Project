@@ -1,0 +1,7 @@
+step,seconds
+Load raw Parquet (31 cột),42.9
+Cleaning,110.7
+Feature engineering,6.2
+Write S0_all,43.8
+Write S1_orig_denied,31.4
+Write S2_denied,9.0

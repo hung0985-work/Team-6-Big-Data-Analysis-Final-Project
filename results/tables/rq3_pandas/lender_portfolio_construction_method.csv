@@ -1,0 +1,7 @@
+construction_method,applications,denied,portfolio_share,denial_rate,group,label
+1,242501,190229,70.21016639017003,78.44462497061868,High-denial lenders,Site-built
+2,102892,85057,29.789833609829962,82.6662908680947,High-denial lenders,Manufactured home
+1,23812,21,99.6317991631799,0.088190828153872,Low-denial lenders,Site-built
+2,88,0,0.36820083682008364,0.0,Low-denial lenders,Manufactured home
+1,7846538,1831090,94.53037251641368,23.33627900610435,All lenders,Site-built
+2,454009,272372,5.469627483586323,59.99264331764348,All lenders,Manufactured home

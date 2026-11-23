@@ -1,0 +1,2 @@
+applications,same_test_ids_and_labels,exactly_equal,max_abs_probability_difference,mean_abs_probability_difference,share_within_1e_6_pct
+1992274,True,True,0.0,0.0,100.0

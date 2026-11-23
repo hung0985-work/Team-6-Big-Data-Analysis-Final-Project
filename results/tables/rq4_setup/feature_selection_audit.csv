@@ -1,0 +1,42 @@
+column,data_type,feature_role,decision,leakage_risk,rationale
+action_taken,string,Outcome-related,Exclude,High,Direct or potential outcome-related information
+income,double,Redundant feature,Exclude,Not primary concern,Alternative representation retained
+debt_to_income_ratio,string,Redundant feature,Exclude,Not primary concern,Alternative representation retained
+loan_amount,double,Redundant feature,Exclude,Not primary concern,Alternative representation retained
+combined_loan_to_value_ratio,double,Numeric predictor,Conditional,Potential,May depend on underwriting-stage information
+property_value,double,Numeric predictor,Conditional,Potential,May depend on underwriting-stage information
+loan_type,string,Categorical predictor,Keep,Timing review,"Loan, property and geographic characteristics"
+loan_purpose,string,Categorical predictor,Keep,Timing review,"Loan, property and geographic characteristics"
+lien_status,string,Categorical predictor,Keep,Timing review,"Loan, property and geographic characteristics"
+occupancy_type,string,Categorical predictor,Keep,Timing review,"Loan, property and geographic characteristics"
+derived_loan_product_type,string,Redundant feature,Exclude,Not primary concern,Alternative representation retained
+construction_method,string,Categorical predictor,Keep,Timing review,"Loan, property and geographic characteristics"
+applicant_age,string,Demographic attribute,Audit only,Fairness concern,Excluded from baseline predictive models
+derived_race,string,Demographic attribute,Audit only,Fairness concern,Excluded from baseline predictive models
+derived_ethnicity,string,Demographic attribute,Audit only,Fairness concern,Excluded from baseline predictive models
+derived_sex,string,Demographic attribute,Audit only,Fairness concern,Excluded from baseline predictive models
+denial_reason_1,string,Outcome-related,Exclude,High,Direct or potential outcome-related information
+denial_reason_2,string,Outcome-related,Exclude,High,Direct or potential outcome-related information
+denial_reason_3,string,Outcome-related,Exclude,High,Direct or potential outcome-related information
+denial_reason_4,string,Outcome-related,Exclude,High,Direct or potential outcome-related information
+county_code,string,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+census_tract,string,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+lei,string,Group identifier,Group only,Institution memorization,Lender-grouped splitting and cross-validation
+tract_population,double,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+tract_minority_population_percent,double,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+ffiec_msa_md_median_family_income,double,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+tract_to_msa_income_percentage,double,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+tract_owner_occupied_units,double,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+tract_one_to_four_family_homes,double,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+tract_median_age_of_housing_units,double,Geographic identifier or tract feature,Exclude,Not primary concern,Research scope and high-cardinality control
+flag_income_implausible,bool,Technical feature,Exclude,Potential,"Cleaning, duplicate detection or sampling metadata"
+flag_combined_loan_to_value_ratio_implausible,bool,Technical feature,Exclude,Potential,"Cleaning, duplicate detection or sampling metadata"
+flag_duplicate,bool,Technical feature,Exclude,Potential,"Cleaning, duplicate detection or sampling metadata"
+denied_flag,int8,Target,Target only,Direct,Binary mortgage denial outcome
+log_income,double,Numeric predictor,Keep,Timing review,Financial capacity and loan exposure
+log_loan_amount,double,Numeric predictor,Keep,Timing review,Financial capacity and loan exposure
+loan_to_income,double,Numeric predictor,Keep,Timing review,Financial capacity and loan exposure
+dti_band,string,Categorical predictor,Conditional,Potential,May depend on verified financial information
+cltv_band,string,Redundant feature,Exclude,Not primary concern,Alternative representation retained
+sample_u,double,Technical feature,Exclude,Potential,"Cleaning, duplicate detection or sampling metadata"
+state_code,"dictionary<values=string, indices=int32, ordered=0>",Categorical predictor,Keep,Timing review,"Loan, property and geographic characteristics"

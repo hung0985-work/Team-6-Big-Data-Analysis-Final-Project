@@ -1,0 +1,16 @@
+rank,transformed_feature,coefficient,feature,feature_type,odds_ratio,absolute_coefficient,direction,odds_change_pct
+1,categorical__dti_band_>60%,3.36969897529218,dti_band_>60%,Categorical,29.069775020041558,3.36969897529218,Higher predicted denial odds,2806.9775020041557
+2,categorical__state_code_Not provided,2.4243192789282366,state_code_Not provided,Categorical,11.29453837158208,2.4243192789282366,Higher predicted denial odds,1029.453837158208
+4,categorical__construction_method_2,1.014378389919179,construction_method_2,Categorical,2.7576486822691355,1.014378389919179,Higher predicted denial odds,175.76486822691356
+8,missing_indicator__missingindicator_property_value,0.7768089398040426,missingindicator_property_value,Missing indicator,2.1745221511974084,0.7768089398040426,Higher predicted denial odds,117.45221511974084
+10,categorical__loan_purpose_4,0.6694729975771505,loan_purpose_4,Categorical,1.9532077041621594,0.6694729975771505,Higher predicted denial odds,95.32077041621594
+12,categorical__state_code_HI,0.5977298056137115,state_code_HI,Categorical,1.817986928369609,0.5977298056137115,Higher predicted denial odds,81.79869283696091
+13,categorical__dti_band_50-60%,0.5851880859133584,dti_band_50-60%,Categorical,1.7953286299109743,0.5851880859133584,Higher predicted denial odds,79.53286299109743
+15,categorical__loan_purpose_32,0.5311821793283273,loan_purpose_32,Categorical,1.7009419389116758,0.5311821793283273,Higher predicted denial odds,70.09419389116758
+17,categorical__state_code_PR,0.5019645016154636,state_code_PR,Categorical,1.6519633698116618,0.5019645016154636,Higher predicted denial odds,65.19633698116618
+18,categorical__loan_type_4,0.466446467396997,loan_type_4,Categorical,1.594318651770301,0.466446467396997,Higher predicted denial odds,59.4318651770301
+20,categorical__state_code_FL,0.4394068744860185,state_code_FL,Categorical,1.551786541309854,0.4394068744860185,Higher predicted denial odds,55.17865413098539
+22,categorical__state_code_CA,0.403165628981512,state_code_CA,Categorical,1.4965547439752744,0.403165628981512,Higher predicted denial odds,49.65547439752744
+23,categorical__loan_purpose_2,0.400648396231063,loan_purpose_2,Categorical,1.4927923048151501,0.400648396231063,Higher predicted denial odds,49.279230481515015
+26,categorical__state_code_DC,0.38459019223215757,state_code_DC,Categorical,1.4690121854649125,0.38459019223215757,Higher predicted denial odds,46.90121854649125
+29,categorical__occupancy_type_2,0.3006825120255893,occupancy_type_2,Categorical,1.3507804169139739,0.3006825120255893,Higher predicted denial odds,35.07804169139739

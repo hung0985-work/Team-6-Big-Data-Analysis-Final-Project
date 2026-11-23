@@ -1,0 +1,9 @@
+validation_check,status
+Zero lender overlap,PASS
+Zero application overlap,PASS
+Complete application coverage,PASS
+Complete lender coverage,PASS
+Unique lender assignments,PASS
+Both target classes in train,PASS
+Both target classes in test,PASS
+Lender identifier excluded,PASS

@@ -1,0 +1,29 @@
+figure,report,pandas,tolerance,difference,match
+Denied applications (S2),2103462.0,2103462.0,0.0,0.0,True
+No valid reason (n),28692.0,28692.0,0.0,0.0,True
+No valid reason (%),1.36,1.3640370018569385,0.005,0.004037001856938449,True
+At least one valid reason (%),98.64,98.63596299814306,0.005,-0.004037001856943334,True
+DTI reason (n),773844.0,773844.0,0.0,0.0,True
+DTI reason (%),36.79,36.7890648844619,0.005,-0.00093511553809833,True
+Credit history (n),679572.0,679572.0,0.0,0.0,True
+Credit history (%),32.31,32.30731051951497,0.005,-0.0026894804850314813,True
+Collateral (n),347100.0,347100.0,0.0,0.0,True
+Collateral (%),16.5,16.501367745174385,0.005,0.0013677451743845381,True
+Other (n),276173.0,276173.0,0.0,0.0,True
+Credit application incomplete (n),269600.0,269600.0,0.0,0.0,True
+Credit application incomplete (%),12.82,12.816965554880477,0.005,-0.0030344451195229993,True
+Unverifiable information (n),123489.0,123489.0,0.0,0.0,True
+Unverifiable information (%),5.87,5.870750220351021,0.005,0.0007502203510210137,True
+Insufficient cash (n),118663.0,118663.0,0.0,0.0,True
+Insufficient cash (%),5.64,5.641318930410913,0.005,0.0013189304109131328,True
+Employment history (n),42827.0,42827.0,0.0,0.0,True
+Mortgage insurance denied (n),1148.0,1148.0,0.0,0.0,True
+Median income – DTI reason (USD),67000.0,67000.0,0.0,0.0,True
+Median income – all denied (USD),82000.0,82000.0,0.0,0.0,True
+DTI > 60% – DTI reason (%),55.94,55.942282940747745,0.005,0.002282940747747375,True
+DTI > 60% – all denied (%),26.45,26.446020893175152,0.005,-0.003979106824846923,True
+Median CLTV – collateral reason (%),81.65,81.6545,0.005,0.004499999999993065,True
+Median CLTV – all denied (%),74.51,74.513,0.005,0.0030000000000001137,True
+DTI missing – incomplete reason (%),31.74,31.737759643916913,0.005,-0.00224035608308526,True
+CLTV missing – no valid reason (%),99.22,99.21929457688555,0.005,-0.0007054231144536516,True
+Property value missing – no valid reason (%),99.68,99.67935312979228,0.005,-0.0006468702077313537,True

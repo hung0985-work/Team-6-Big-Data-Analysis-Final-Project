@@ -1,0 +1,8 @@
+﻿metric,rows_checked,max_abs_difference,tolerance,match
+total_records,44,0.0,0.0,True
+valid_records,44,0.0,0.0,True
+missing_pct,44,0.0,1e-06,True
+Q1,44,0.0,1e-06,True
+median,44,0.0,1e-06,True
+Q3,44,0.0,1e-06,True
+IQR,44,0.0,1e-06,True

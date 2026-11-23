@@ -1,0 +1,8 @@
+﻿variable,pandas_missing,spark_missing,match
+income,624510,624510,True
+debt_to_income_ratio,883734,883734,True
+loan_amount,0,0,True
+combined_loan_to_value_ratio,843490,843490,True
+property_value,534689,534689,True
+dti_band,883734,883734,True
+cltv_band,843490,843490,True

@@ -1,0 +1,13 @@
+step,column,rows,action
+3.2 missing codes,income,1780434,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,debt_to_income_ratio,4347476,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,combined_loan_to_value_ratio,4318147,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,property_value,2744075,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,applicant_age,1463684,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,denial_reason_1,247789,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,state_code,215946,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,county_code,296190,NA/Exempt/1111/8888 -> NaN
+3.2 missing codes,census_tract,349023,NA/Exempt/1111/8888 -> NaN
+3.4 implausible,income,165254,le 0 -> NaN (flagged)
+3.4 implausible,combined_loan_to_value_ratio,3680,gt 250 -> NaN (flagged)
+3.5 duplicates,ALL,71299,"flagged, not removed"

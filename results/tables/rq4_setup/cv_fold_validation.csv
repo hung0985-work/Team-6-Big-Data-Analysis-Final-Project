@@ -1,0 +1,31 @@
+fold,validation_check,status
+1,Zero lender overlap,PASS
+1,Zero application overlap,PASS
+1,No test lenders in CV,PASS
+1,Complete fold coverage,PASS
+1,Both target classes in training,PASS
+1,Both target classes in validation,PASS
+2,Zero lender overlap,PASS
+2,Zero application overlap,PASS
+2,No test lenders in CV,PASS
+2,Complete fold coverage,PASS
+2,Both target classes in training,PASS
+2,Both target classes in validation,PASS
+3,Zero lender overlap,PASS
+3,Zero application overlap,PASS
+3,No test lenders in CV,PASS
+3,Complete fold coverage,PASS
+3,Both target classes in training,PASS
+3,Both target classes in validation,PASS
+4,Zero lender overlap,PASS
+4,Zero application overlap,PASS
+4,No test lenders in CV,PASS
+4,Complete fold coverage,PASS
+4,Both target classes in training,PASS
+4,Both target classes in validation,PASS
+5,Zero lender overlap,PASS
+5,Zero application overlap,PASS
+5,No test lenders in CV,PASS
+5,Complete fold coverage,PASS
+5,Both target classes in training,PASS
+5,Both target classes in validation,PASS

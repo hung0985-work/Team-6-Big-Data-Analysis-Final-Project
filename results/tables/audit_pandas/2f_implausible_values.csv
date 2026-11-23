@@ -1,0 +1,5 @@
+rule,rows,pct
+income_le_0,165254,1.348
+loan_amount_le_0,0,0.0
+cltv_gt_250,3680,0.03
+property_value_le_0,0,0.0

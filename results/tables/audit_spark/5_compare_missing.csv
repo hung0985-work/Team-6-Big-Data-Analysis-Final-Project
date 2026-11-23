@@ -1,0 +1,5 @@
+,S0 pandas,S0 spark,S1 pandas,S1 spark,khớp
+income,15.87,15.87,7.52,7.52,True
+debt_to_income_ratio,35.46,35.46,10.65,10.65,True
+combined_loan_to_value_ratio,35.25,35.25,10.16,10.16,True
+property_value,22.38,22.38,6.44,6.44,True

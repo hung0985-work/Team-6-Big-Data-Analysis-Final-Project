@@ -1,1 +1,16 @@
---
+geopandas
+ipython
+joblib
+matplotlib
+numpy
+pandas
+psutil
+pyarrow
+pyspark
+scikit-learn
+scipy
+seaborn
+statsmodels
+threadpoolctl
+us
+xgboost

@@ -1,0 +1,5 @@
+column,n,Q1,median,Q3
+income,10478765,67.0,104.0,165.0
+loan_amount,12259199,105000.0,225000.0,375000.0
+combined_loan_to_value_ratio,7941052,60.125,79.14,92.97
+property_value,9515124,255000.0,385000.0,585000.0

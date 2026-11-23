@@ -1,0 +1,7 @@
+chỉ số,pandas (từ file),spark (từ file),khớp
+Tổng số dòng,12259199,12259199,True
+Dòng trùng,71299,71299,True
+Originated,6197085,6197085,True
+Denied,2103462,2103462,True
+income <= 0,165254,165254,True
+CLTV > 250,3680,3680,True

@@ -1,0 +1,38 @@
+# Raw, row-level, and legacy working data
+/raw/
+/clean_pandas/
+/hmda/
+/HMDA_Thuy/
+/notebooks/
+/figure/
+/rules.py
+/HMDA_2024_Data_Dictionary.xlsx
+/*.zip
+*.parquet
+*.npz
+*.npy
+*.joblib
+*.ubj
+
+# Notebook and Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

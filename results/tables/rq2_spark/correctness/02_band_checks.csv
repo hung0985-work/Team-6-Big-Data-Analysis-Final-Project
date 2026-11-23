@@ -1,0 +1,11 @@
+﻿analysis,metric,groups_checked,max_abs_difference,match
+dti_band,applications,8,0.0,True
+dti_band,denied,8,0.0,True
+dti_band,originated,8,0.0,True
+dti_band,denial_rate_pct,8,1.7763568394002505e-15,True
+dti_band,share_of_S1_pct,8,3.552713678800501e-15,True
+cltv_band,applications,7,0.0,True
+cltv_band,denied,7,0.0,True
+cltv_band,originated,7,0.0,True
+cltv_band,denial_rate_pct,7,0.0,True
+cltv_band,share_of_S1_pct,7,1.7763568394002505e-15,True

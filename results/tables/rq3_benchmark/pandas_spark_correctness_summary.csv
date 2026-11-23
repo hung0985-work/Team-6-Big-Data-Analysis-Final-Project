@@ -1,0 +1,16 @@
+table,pandas_rows,spark_rows,matched_keys,unmatched_keys,mismatched_values,max_abs_numeric_diff,max_denial_rate_diff_pp,schema_diff,status
+denial_by_lien_status.csv,2,2,2,0,0,0.0,0.0,,PASS
+denial_by_occupancy_type.csv,3,3,3,0,0,0.0,0.0,,PASS
+denial_by_construction_method.csv,2,2,2,0,0,0.0,0.0,,PASS
+denial_by_derived_loan_product_type.csv,8,8,8,0,0,0.0,0.0,,PASS
+denial_by_state.csv,54,54,54,0,0,0.0,0.0,,PASS
+missing_state_summary.csv,1,1,1,0,0,0.0,0.0,,PASS
+denial_by_lender.csv,4909,4909,4909,0,0,0.0,0.0,,PASS
+lender_threshold_assessment.csv,5,5,5,0,0,0.0,0.0,,PASS
+denial_by_lender_size.csv,6,6,6,0,0,0.0,0.0,,PASS
+top_10_lenders.csv,10,10,10,0,0,0.0,0.0,,PASS
+lender_portfolio_group_summary.csv,3,3,3,0,0,0.0,0.0,,PASS
+lender_portfolio_loan_type.csv,12,12,12,0,0,0.0,0.0,,PASS
+lender_portfolio_loan_purpose.csv,16,16,16,0,0,0.0,0.0,,PASS
+lender_portfolio_lien_status.csv,6,6,6,0,0,0.0,0.0,,PASS
+lender_portfolio_construction_method.csv,6,6,6,0,0,0.0,0.0,,PASS

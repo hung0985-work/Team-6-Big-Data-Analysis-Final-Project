@@ -1,0 +1,2 @@
+﻿purpose,model,xgboost_version,fit_applications,validation_applications,encoded_columns,validation_denial_rate,roc_auc,average_precision,precision_at_0.5,recall_at_0.5,f1_at_0.5,preprocessing_seconds,training_seconds,inference_seconds
+Technical smoke test only,XGBoost,3.4.1,50000,5000,86,0.2156,0.7879630295398489,0.6275332411256176,0.7957198443579766,0.37940630797773656,0.5138190954773869,0.2611177690000659,1.9248266489998969,0.020736007999857975

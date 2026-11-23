@@ -1,0 +1,16 @@
+feature,feature_type
+log_income,Numeric
+log_loan_amount,Numeric
+log_loan_to_income,Numeric
+log_property_value,Numeric
+combined_loan_to_value_ratio,Numeric
+loan_type,Categorical
+loan_purpose,Categorical
+lien_status,Categorical
+occupancy_type,Categorical
+construction_method,Categorical
+state_code,Categorical
+dti_band,Categorical
+log_income_missing,Missing indicator
+property_value_missing,Missing indicator
+combined_loan_to_value_ratio_missing,Missing indicator

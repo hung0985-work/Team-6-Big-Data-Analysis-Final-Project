@@ -1,0 +1,4 @@
+sample,rows,share_of_S0_%
+S0 (all),12259199,100.0
+S1 (originated + denied),8300547,67.71
+S2 (denied only),2103462,17.16

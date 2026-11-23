@@ -1,0 +1,4 @@
+﻿sample,rows,actual_pct_of_S1,file_size_MiB,local_path,drive_path
+25pct,2075136,24.999990964450898,2.742781639099121,/content/hmda_benchmark_inputs/S1_25pct.parquet,/content/drive/MyDrive/HMDA_Thuy/benchmark/inputs/S1_25pct.parquet
+50pct,4150273,49.9999939763006,5.4628143310546875,/content/hmda_benchmark_inputs/S1_50pct.parquet,/content/drive/MyDrive/HMDA_Thuy/benchmark/inputs/S1_50pct.parquet
+100pct,8300547,100.0,11.044367790222168,/content/hmda_benchmark_inputs/S1_100pct.parquet,/content/drive/MyDrive/HMDA_Thuy/benchmark/inputs/S1_100pct.parquet

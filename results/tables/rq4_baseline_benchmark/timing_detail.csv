@@ -1,0 +1,97 @@
+engine,phase,fold,task,seconds
+Pandas,Setup,0,Data loading,26.285138753000012
+Pandas,Setup,0,Partition assignment,4.633817599999986
+Pandas,CV,1,Select fit/evaluation rows,0.3650937209999938
+Pandas,CV,1,Feature preprocessing,24.421377687000017
+Pandas,CV,1,Model training,27.54641384399997
+Pandas,CV,1,Prediction,0.07476351299999351
+Pandas,CV,1,Resource cleanup,0.14571381399997563
+Pandas,CV,1,Evaluation,2.1809139910000113
+Pandas,CV,2,Select fit/evaluation rows,0.36969766300001083
+Pandas,CV,2,Feature preprocessing,22.093550773999993
+Pandas,CV,2,Model training,32.404424688999995
+Pandas,CV,2,Prediction,0.08039110799995797
+Pandas,CV,2,Resource cleanup,0.15755041500000289
+Pandas,CV,2,Evaluation,2.2868107250000094
+Pandas,CV,3,Select fit/evaluation rows,0.49394199599998956
+Pandas,CV,3,Feature preprocessing,22.729839060000018
+Pandas,CV,3,Model training,29.643957262000015
+Pandas,CV,3,Prediction,0.05699743799999624
+Pandas,CV,3,Resource cleanup,0.11674879899999269
+Pandas,CV,3,Evaluation,1.6548703500000101
+Pandas,CV,4,Select fit/evaluation rows,0.3601836779999985
+Pandas,CV,4,Feature preprocessing,22.699262698999974
+Pandas,CV,4,Model training,22.99441558000001
+Pandas,CV,4,Prediction,0.05663257799994881
+Pandas,CV,4,Resource cleanup,0.11837111800002731
+Pandas,CV,4,Evaluation,2.2921288530000083
+Pandas,CV,5,Select fit/evaluation rows,0.5164083479999135
+Pandas,CV,5,Feature preprocessing,22.994495832999974
+Pandas,CV,5,Model training,30.545485909000035
+Pandas,CV,5,Prediction,0.057142253000051824
+Pandas,CV,5,Resource cleanup,0.1314452459999984
+Pandas,CV,5,Evaluation,1.662838297999997
+Pandas,OOF,0,Threshold selection,2.0905522079999628
+Pandas,OOF,0,Evaluation,20.36947847199997
+Pandas,Test,0,Select fit/evaluation rows,0.13638350500002616
+Pandas,Test,0,Feature preprocessing,30.04792717099997
+Pandas,Test,0,Model training,34.59438532900003
+Pandas,Test,0,Prediction,0.08766217900006268
+Pandas,Test,0,Resource cleanup,0.11978499099996043
+Pandas,Test,0,Evaluation,7.224476870999979
+Pandas,Setup,0,Resource cleanup,0.14596245500001714
+Spark,Setup,0,Engine startup,18.733812544999978
+Spark,Setup,0,Data loading,54.38645898499999
+Spark,Setup,0,Partition assignment,69.1847664610001
+Spark,CV,1,Select fit/evaluation rows,0.049212667999995574
+Spark,CV,1,Driver collection,40.83013873599998
+Spark,CV,1,Feature preprocessing,24.433746455999994
+Spark,CV,1,Spark vector transfer,300.85751872800006
+Spark,CV,1,Model training,55.452265560000114
+Spark,CV,1,Prediction,4.220347403000005
+Spark,CV,1,Resource cleanup,0.20184173799998462
+Spark,CV,1,Evaluation,2.3482706760000838
+Spark,CV,2,Select fit/evaluation rows,0.08530298200003017
+Spark,CV,2,Driver collection,36.20591832700006
+Spark,CV,2,Feature preprocessing,25.221812533000048
+Spark,CV,2,Spark vector transfer,295.69201238899996
+Spark,CV,2,Model training,48.946073307000006
+Spark,CV,2,Prediction,2.417605244000015
+Spark,CV,2,Resource cleanup,0.21612117399990893
+Spark,CV,2,Evaluation,2.374194998000121
+Spark,CV,3,Select fit/evaluation rows,0.0676830439999776
+Spark,CV,3,Driver collection,36.23097570999994
+Spark,CV,3,Feature preprocessing,26.625846982999974
+Spark,CV,3,Spark vector transfer,289.029657111
+Spark,CV,3,Model training,46.645991613000206
+Spark,CV,3,Prediction,2.106714299000032
+Spark,CV,3,Resource cleanup,0.16038990099968942
+Spark,CV,3,Evaluation,1.6859700369996062
+Spark,CV,4,Select fit/evaluation rows,0.03131044600013411
+Spark,CV,4,Driver collection,34.74123799900008
+Spark,CV,4,Feature preprocessing,29.80361821700035
+Spark,CV,4,Spark vector transfer,286.842748132
+Spark,CV,4,Model training,47.31923162899966
+Spark,CV,4,Prediction,1.9423954509998111
+Spark,CV,4,Resource cleanup,0.15981841399980112
+Spark,CV,4,Evaluation,1.6961656759999642
+Spark,CV,5,Select fit/evaluation rows,0.02965238600017983
+Spark,CV,5,Driver collection,37.5938715340003
+Spark,CV,5,Feature preprocessing,23.801744053999755
+Spark,CV,5,Spark vector transfer,294.126575023
+Spark,CV,5,Model training,49.104242647999854
+Spark,CV,5,Prediction,2.4902851020001435
+Spark,CV,5,Resource cleanup,0.1623190339996654
+Spark,CV,5,Evaluation,1.7147911679999197
+Spark,OOF,0,Threshold selection,2.1332446100000197
+Spark,OOF,0,Evaluation,20.98687357200015
+Spark,Test,0,Select fit/evaluation rows,0.025548023999817815
+Spark,Test,0,Driver collection,39.838210738999805
+Spark,Test,0,Feature preprocessing,37.64883326900008
+Spark,Test,0,Spark vector transfer,391.9273122479999
+Spark,Test,0,Model training,58.057467549000194
+Spark,Test,0,Prediction,3.0496083070001987
+Spark,Test,0,Resource cleanup,0.1628435019997596
+Spark,Test,0,Evaluation,7.62656528000025
+Spark,Setup,0,Resource cleanup,0.18284681800014368
+Spark,Setup,0,Engine shutdown,1.0036471569997047

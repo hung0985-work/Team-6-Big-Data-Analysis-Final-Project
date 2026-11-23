@@ -1,0 +1,13 @@
+feature,data_type,missing_count,missing_rate_pct,unique_values,infinite_count,feature_set
+dti_band,category,883734,10.646695934617322,7,0,Conditional
+combined_loan_to_value_ratio,float32,843490,10.161860417150821,147404,0,Conditional
+log_income,float32,624510,7.523721027060024,7262,0,Core
+loan_to_income,float32,624510,7.523721027060024,146906,0,Core
+property_value,float32,534689,6.441611619089683,3798,0,Conditional
+state_code,category,36577,0.4406577060523843,54,0,Core
+log_loan_amount,float32,0,0.0,3560,0,Core
+loan_type,category,0,0.0,4,0,Core
+lien_status,category,0,0.0,2,0,Core
+loan_purpose,category,0,0.0,6,0,Core
+construction_method,category,0,0.0,2,0,Core
+occupancy_type,category,0,0.0,3,0,Core

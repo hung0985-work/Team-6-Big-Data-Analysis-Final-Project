@@ -1,0 +1,3 @@
+﻿partition,applications,lenders,originated,denied,denial_rate_pct
+Train,6308273,3927,4698384,1609889,25.520281065832123
+Test,1992274,982,1498701,493573,24.77435332690182

@@ -1,0 +1,16 @@
+biến,band,count_pandas,count_spark,khớp
+dti_band,20-<30%,1070929,1070929,True
+dti_band,30-<36%,1097751,1097751,True
+dti_band,36-43%,2084592,2084592,True
+dti_band,44-49%,1747928,1747928,True
+dti_band,50-60%,825620,825620,True
+dti_band,<20%,462987,462987,True
+dti_band,>60%,621916,621916,True
+dti_band,NaN,4347476,4347476,True
+cltv_band,100-250,313124,313124,True
+cltv_band,60-80,2946785,2946785,True
+cltv_band,80-90,923773,923773,True
+cltv_band,90-95,604034,604034,True
+cltv_band,95-100,1169603,1169603,True
+cltv_band,<=60,1980053,1980053,True
+cltv_band,NaN,4321827,4321827,True

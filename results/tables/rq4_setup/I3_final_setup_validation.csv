@@ -1,0 +1,9 @@
+validation_check,status
+Required artifacts exist,PASS
+Unique lender assignments,PASS
+Train/test lender consistency,PASS
+Zero train/test lender overlap,PASS
+Complete CV lender coverage,PASS
+No test lenders in CV,PASS
+Complete CV fold assignments,PASS
+Preprocessing pipelines remain unfitted,PASS

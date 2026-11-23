@@ -1,0 +1,7 @@
+lien_status,applications,denied,portfolio_share,denial_rate,group,label
+1,193470,162725,56.014453101249885,84.10864733550422,High-denial lenders,First lien
+2,151923,112561,43.98554689875012,74.090822324467,High-denial lenders,Subordinate lien
+1,23721,21,99.2510460251046,0.08852915138484886,Low-denial lenders,First lien
+2,179,0,0.7489539748953975,0.0,Low-denial lenders,Subordinate lien
+1,6017194,1246459,72.4915357987853,20.714954512020054,All lenders,First lien
+2,2283353,857003,27.50846420121469,37.53265482822849,All lenders,Subordinate lien

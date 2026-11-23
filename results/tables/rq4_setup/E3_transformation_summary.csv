@@ -1,0 +1,3 @@
+original_feature,transformed_feature,method,original_skewness,transformed_skewness,original_median,transformed_median,original_max,transformed_max
+loan_to_income,log_loan_to_income,log1p,127.79011744790172,0.5324121429522195,1.9696969985961914,1.0884599269354622,3505.0,8.16223106548118
+property_value,log_property_value,log1p,265.39482698066365,0.22263142297350258,385000.0,12.861001210669146,2147483648.0,21.487562597823967

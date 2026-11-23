@@ -1,0 +1,7 @@
+﻿output,pass
+Sample counts and target,True
+Missing counts,True
+Denial rates by DTI and CLTV,True
+Financial summary and exact quartiles,True
+DTI × CLTV joint analysis,True
+Spearman: 10 pairs and pair counts,True

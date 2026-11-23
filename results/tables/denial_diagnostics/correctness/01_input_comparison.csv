@@ -1,0 +1,5 @@
+﻿metric,pandas,spark,match
+Total denied applications,2103462,2103462,True
+Applications with valid reason,2074770,2074770,True
+Applications without valid reason,28692,28692,True
+Duplicate reason slots,0,0,True

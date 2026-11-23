@@ -1,0 +1,8 @@
+﻿metric,rows_checked,max_abs_difference,match
+total_records,8,0.0,True
+valid_records,8,0.0,True
+missing_pct,8,1.7763568394002505e-15,True
+Q1,8,0.0,True
+median,8,0.0,True
+Q3,8,0.0,True
+IQR,8,7.105427357601002e-15,True

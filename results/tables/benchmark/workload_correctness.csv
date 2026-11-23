@@ -1,0 +1,4 @@
+sample,input_rows,groups,groups_match,counts_match,mean_match,rate_match,rows_match,pass
+25pct,2075136,216,True,True,True,True,True,True
+50pct,4150273,216,True,True,True,True,True,True
+100pct,8300547,218,True,True,True,True,True,True

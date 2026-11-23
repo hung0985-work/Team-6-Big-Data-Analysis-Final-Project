@@ -1,0 +1,3 @@
+model,input_rows,input_features,output_rows,output_features,sparse_output,density_pct,missing_values,infinite_values,memory_mb,processing_time_sec,row_count_check,feature_count_check
+Logistic Regression,50000,12,50000,86,True,14.255651162790697,0,0,4.867504119873047,0.1046025309999834,True,True
+Gradient Boosting,50000,12,50000,86,True,14.25520930232558,0,0,4.867359161376953,0.09744488499998738,True,True

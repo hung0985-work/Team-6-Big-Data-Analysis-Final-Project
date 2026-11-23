@@ -1,0 +1,2 @@
+source,roc_auc,average_precision,default_f1,optimized_f1,optimized_threshold
+Original LR1.5 output,0.828668,0.683993,0.56206,0.606476,0.322416

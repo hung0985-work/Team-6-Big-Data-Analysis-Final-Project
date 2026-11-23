@@ -1,0 +1,26 @@
+component,configuration
+Total applications,"8,300,547"
+Training applications,"6,308,273"
+Test applications,"1,992,274"
+Total lenders,"4,909"
+Training lenders,"3,927"
+Test lenders,982
+Target variable,denied_flag
+Positive class,Denied
+Original predictors,12
+Numerical predictors,5
+Categorical predictors,7
+Missing indicators,3
+Engineered features before encoding,15
+Additional log transformations,2
+Train/test method,GroupShuffleSplit
+Cross-validation method,GroupKFold
+CV folds,5
+Grouping variable,lei
+Class imbalance strategy,Unweighted vs. balanced
+Primary evaluation metric,ROC-AUC
+Secondary evaluation metric,Precision
+Threshold optimization,F1-score
+Models,Logistic Regression and Gradient Boosting
+Setup version,1.0.0
+Setup status,COMPLETE

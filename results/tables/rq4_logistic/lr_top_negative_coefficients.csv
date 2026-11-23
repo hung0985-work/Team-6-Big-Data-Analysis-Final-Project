@@ -1,0 +1,16 @@
+rank,transformed_feature,coefficient,feature,feature_type,odds_ratio,absolute_coefficient,direction,odds_change_pct
+3,categorical__loan_purpose_1,-1.1346582681329938,loan_purpose_1,Categorical,0.3215319802860953,1.1346582681329938,Lower predicted denial odds,-67.84680197139046
+5,categorical__dti_band_36-43%,-0.9620341971083647,dti_band_36-43%,Categorical,0.38211479803407583,0.9620341971083647,Lower predicted denial odds,-61.78852019659242
+6,categorical__dti_band_30-<36%,-0.9399957982136511,dti_band_30-<36%,Categorical,0.39062947669667547,0.9399957982136511,Lower predicted denial odds,-60.937052330332456
+7,categorical__dti_band_20-<30%,-0.8311156611516224,dti_band_20-<30%,Categorical,0.4355630743469321,0.8311156611516224,Lower predicted denial odds,-56.44369256530679
+9,categorical__dti_band_44-49%,-0.7007222902409904,dti_band_44-49%,Categorical,0.49622675457654913,0.7007222902409904,Lower predicted denial odds,-50.37732454234509
+11,categorical__construction_method_1,-0.6367814532634113,construction_method_1,Categorical,0.5289922734085936,0.6367814532634113,Lower predicted denial odds,-47.100772659140645
+14,categorical__state_code_IA,-0.5768411761061253,state_code_IA,Categorical,0.5616697832275318,0.5768411761061253,Lower predicted denial odds,-43.83302167724682
+16,categorical__state_code_WI,-0.5118412118870077,state_code_WI,Categorical,0.5993909564484361,0.5118412118870077,Lower predicted denial odds,-40.06090435515639
+19,categorical__state_code_SD,-0.4591380456745176,state_code_SD,Categorical,0.6318280177540794,0.4591380456745176,Lower predicted denial odds,-36.81719822459206
+21,categorical__loan_type_3,-0.4267772234266141,loan_type_3,Categorical,0.6526089220142152,0.4267772234266141,Lower predicted denial odds,-34.73910779857848
+24,categorical__state_code_ND,-0.3940203634140559,state_code_ND,Categorical,0.6743403242293925,0.3940203634140559,Lower predicted denial odds,-32.56596757706075
+25,categorical__state_code_NE,-0.3879316081888161,state_code_NE,Categorical,0.678458742699642,0.3879316081888161,Lower predicted denial odds,-32.1541257300358
+27,categorical__state_code_MN,-0.38393280507845867,state_code_MN,Categorical,0.6811771972900981,0.38393280507845867,Lower predicted denial odds,-31.882280270990194
+28,categorical__state_code_KS,-0.34708365079804787,state_code_KS,Categorical,0.7067462059008268,0.34708365079804787,Lower predicted denial odds,-29.325379409917318
+30,categorical__state_code_VT,-0.29873553582790335,state_code_VT,Categorical,0.7417555512653874,0.29873553582790335,Lower predicted denial odds,-25.82444487346126

@@ -1,0 +1,9 @@
+phép đối chiếu,file,dòng khớp,khớp toàn bộ
+Kết quả hồ sơ,R1_outcomes.csv,8/8,True
+Denial rate theo loan type,R2_denial_by_loan_type.csv,4/4,True
+Denial rate theo purpose,R2_denial_by_purpose.csv,6/6,True
+Số lượng (n),R3_distribution_stats.csv,2/2,True
+Phân vị (±1%),R3_distribution_stats.csv,2/2,True
+Mean,R3_distribution_stats.csv,2/2,True
+Median theo loại (±1%),R3_median_by_loan_type.csv,4/4,True
+Cơ cấu purpose × type,R4_mix_purpose_x_type.csv,7/7,True

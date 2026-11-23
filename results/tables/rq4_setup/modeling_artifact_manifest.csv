@@ -1,0 +1,15 @@
+artifact,purpose,size_mb,status
+feature_config.json,Feature selection,0.000965118408203125,PASS
+split_config.json,Train/test strategy,0.0003414154052734375,PASS
+cv_config.json,Cross-validation strategy,0.0002765655517578125,PASS
+lender_train_test_split.csv,Lender partition,0.12547969818115234,PASS
+train_test_indices.npz,Partition indices,11.997020721435547,PASS
+lender_cv_fold_assignment.csv,CV lender mapping,0.08615589141845703,PASS
+cv_fold_assignment.npy,CV fold array,6.016160011291504,PASS
+feature_engineering_config.json,Feature engineering,0.0019483566284179688,PASS
+lr_preprocessor.joblib,LR preprocessing,0.0016183853149414062,PASS
+gb_preprocessor.joblib,GB preprocessing,0.0014963150024414062,PASS
+preprocessing_config.json,Preprocessing strategy,0.0012378692626953125,PASS
+evaluation_utils.py,Evaluation functions,0.004031181335449219,PASS
+evaluation_config.json,Evaluation strategy,0.0010776519775390625,PASS
+master_modeling_config.json,Master configuration,0.009045600891113281,PASS

@@ -1,0 +1,9 @@
+check,file,rows matched,all match
+Application outcomes,R1_outcomes.csv,8/8,True
+Denial rate by loan type,R2_denial_by_loan_type.csv,4/4,True
+Denial rate by purpose,R2_denial_by_purpose.csv,6/6,True
+Count (n),R3_distribution_stats.csv,2/2,True
+Percentiles (±1%),R3_distribution_stats.csv,2/2,True
+Mean,R3_distribution_stats.csv,2/2,True
+Median by loan type (±1%),R3_median_by_loan_type.csv,4/4,True
+Mix purpose × type,R4_mix_purpose_x_type.csv,7/7,True

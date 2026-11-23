@@ -1,0 +1,13 @@
+engine,phase,fold,encoded_features,iterations,convergence_status
+Pandas,CV,1,88,57,Converged
+Pandas,CV,2,88,69,Converged
+Pandas,CV,3,88,62,Converged
+Pandas,CV,4,88,50,Converged
+Pandas,CV,5,88,66,Converged
+Pandas,Test,0,88,60,Converged
+Spark,CV,1,88,24,Stopped before cap
+Spark,CV,2,88,23,Stopped before cap
+Spark,CV,3,88,23,Stopped before cap
+Spark,CV,4,88,24,Stopped before cap
+Spark,CV,5,88,26,Stopped before cap
+Spark,Test,0,88,23,Stopped before cap

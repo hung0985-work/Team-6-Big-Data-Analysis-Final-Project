@@ -1,0 +1,6 @@
+feature,vif,multicollinearity
+log_loan_amount,17.744089916295664,High
+log_loan_to_income,17.521153418690336,High
+log_income,13.62301621297836,High
+log_property_value,2.522539273898051,Low
+combined_loan_to_value_ratio,1.5658118540042973,Low

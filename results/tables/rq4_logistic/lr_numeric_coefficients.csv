@@ -1,0 +1,6 @@
+rank,transformed_feature,coefficient,feature,feature_type,odds_ratio,absolute_coefficient,direction,odds_change_pct,interpretation_unit
+32,numeric_log__property_value,-0.2832925862572966,property_value,Log-transformed numerical,0.753299350575221,0.2832925862572966,Lower predicted denial odds,-24.6700649424779,One standard deviation in transformed predictor
+47,numeric_identity__log_loan_amount,-0.14104264208400769,log_loan_amount,Numerical,0.8684522782930751,0.14104264208400769,Lower predicted denial odds,-13.154772170692485,One standard deviation in transformed predictor
+57,numeric_log__loan_to_income,0.11704750088936615,loan_to_income,Log-transformed numerical,1.1241728276314158,0.11704750088936615,Higher predicted denial odds,12.417282763141579,One standard deviation in transformed predictor
+62,numeric_identity__combined_loan_to_value_ratio,0.08672897750418988,combined_loan_to_value_ratio,Numerical,1.0906010622387725,0.08672897750418988,Higher predicted denial odds,9.060106223877252,One standard deviation in transformed predictor
+83,numeric_identity__log_income,-0.00910282572005489,log_income,Numerical,0.9909384795713521,0.00910282572005489,Lower predicted denial odds,-0.906152042864794,One standard deviation in transformed predictor

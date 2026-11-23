@@ -1,0 +1,5 @@
+﻿check,match
+Same number of test applications,True
+Same test application IDs,True
+Same outcome labels,True
+Same lender for each application,True

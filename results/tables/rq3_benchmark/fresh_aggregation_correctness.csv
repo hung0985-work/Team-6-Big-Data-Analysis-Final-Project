@@ -1,0 +1,73 @@
+step,trial,table,rows,mismatches,status
+RQ3.1,0,lien_status,2,0,PASS
+RQ3.1,0,occupancy_type,3,0,PASS
+RQ3.1,0,construction_method,2,0,PASS
+RQ3.1,0,derived_loan_product_type,8,0,PASS
+RQ3.1,1,lien_status,2,0,PASS
+RQ3.1,1,occupancy_type,3,0,PASS
+RQ3.1,1,construction_method,2,0,PASS
+RQ3.1,1,derived_loan_product_type,8,0,PASS
+RQ3.1,2,lien_status,2,0,PASS
+RQ3.1,2,occupancy_type,3,0,PASS
+RQ3.1,2,construction_method,2,0,PASS
+RQ3.1,2,derived_loan_product_type,8,0,PASS
+RQ3.1,3,lien_status,2,0,PASS
+RQ3.1,3,occupancy_type,3,0,PASS
+RQ3.1,3,construction_method,2,0,PASS
+RQ3.1,3,derived_loan_product_type,8,0,PASS
+RQ3.2,0,state_code,55,0,PASS
+RQ3.2,1,state_code,55,0,PASS
+RQ3.2,2,state_code,55,0,PASS
+RQ3.2,3,state_code,55,0,PASS
+RQ3.3,0,lei,4909,0,PASS
+RQ3.3,1,lei,4909,0,PASS
+RQ3.3,2,lei,4909,0,PASS
+RQ3.3,3,lei,4909,0,PASS
+RQ3.4,0,"('High-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,0,"('High-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,0,"('High-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,0,"('High-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,0,"('Low-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,0,"('Low-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,0,"('Low-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,0,"('Low-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,0,"('All lenders', 'loan_type')",4,0,PASS
+RQ3.4,0,"('All lenders', 'loan_purpose')",6,0,PASS
+RQ3.4,0,"('All lenders', 'lien_status')",2,0,PASS
+RQ3.4,0,"('All lenders', 'construction_method')",2,0,PASS
+RQ3.4,1,"('High-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,1,"('High-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,1,"('High-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,1,"('High-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,1,"('Low-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,1,"('Low-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,1,"('Low-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,1,"('Low-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,1,"('All lenders', 'loan_type')",4,0,PASS
+RQ3.4,1,"('All lenders', 'loan_purpose')",6,0,PASS
+RQ3.4,1,"('All lenders', 'lien_status')",2,0,PASS
+RQ3.4,1,"('All lenders', 'construction_method')",2,0,PASS
+RQ3.4,2,"('High-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,2,"('High-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,2,"('High-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,2,"('High-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,2,"('Low-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,2,"('Low-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,2,"('Low-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,2,"('Low-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,2,"('All lenders', 'loan_type')",4,0,PASS
+RQ3.4,2,"('All lenders', 'loan_purpose')",6,0,PASS
+RQ3.4,2,"('All lenders', 'lien_status')",2,0,PASS
+RQ3.4,2,"('All lenders', 'construction_method')",2,0,PASS
+RQ3.4,3,"('High-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,3,"('High-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,3,"('High-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,3,"('High-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,3,"('Low-denial lenders', 'loan_type')",4,0,PASS
+RQ3.4,3,"('Low-denial lenders', 'loan_purpose')",5,0,PASS
+RQ3.4,3,"('Low-denial lenders', 'lien_status')",2,0,PASS
+RQ3.4,3,"('Low-denial lenders', 'construction_method')",2,0,PASS
+RQ3.4,3,"('All lenders', 'loan_type')",4,0,PASS
+RQ3.4,3,"('All lenders', 'loan_purpose')",6,0,PASS
+RQ3.4,3,"('All lenders', 'lien_status')",2,0,PASS
+RQ3.4,3,"('All lenders', 'construction_method')",2,0,PASS

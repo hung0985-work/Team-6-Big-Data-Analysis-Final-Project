@@ -1,0 +1,13 @@
+step,column,rows_pandas,rows_spark,khớp
+3.2 missing codes,applicant_age,1463684,1463684,True
+3.2 missing codes,census_tract,349023,349023,True
+3.2 missing codes,combined_loan_to_value_ratio,4318147,4318147,True
+3.2 missing codes,county_code,296190,296190,True
+3.2 missing codes,debt_to_income_ratio,4347476,4347476,True
+3.2 missing codes,denial_reason_1,247789,247789,True
+3.2 missing codes,income,1780434,1780434,True
+3.2 missing codes,property_value,2744075,2744075,True
+3.2 missing codes,state_code,215946,215946,True
+3.4 implausible,combined_loan_to_value_ratio,3680,3680,True
+3.4 implausible,income,165254,165254,True
+3.5 duplicates,ALL,71299,71299,True
