@@ -1,0 +1,5 @@
+type_label,loan_amount,income
+Conventional,185000.0,112.0
+FHA,275000.0,85.0
+USDA (RHS/FSA),175000.0,73.0
+VA,335000.0,102.0
