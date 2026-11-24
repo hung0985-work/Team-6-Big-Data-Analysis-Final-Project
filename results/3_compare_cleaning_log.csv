@@ -1,4 +1,4 @@
-step,column,rows_pandas,rows_spark,khớp
+step,column,rows_pandas,rows_spark,match
 3.2 missing codes,applicant_age,1463684,1463684,True
 3.2 missing codes,census_tract,349023,349023,True
 3.2 missing codes,combined_loan_to_value_ratio,4318147,4318147,True

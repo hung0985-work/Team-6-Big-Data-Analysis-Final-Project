@@ -1,5 +1,5 @@
 step,seconds
-Load + cache raw Parquet (31 cột),235.5
+Load + cache raw Parquet (31 columns),235.5
 Cleaning,784.3
 Feature engineering,186.6
 Write S0_all,258.0

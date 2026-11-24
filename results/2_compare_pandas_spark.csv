@@ -1,6 +1,6 @@
-chỉ số,pandas (từ file),spark (từ file),khớp
-Tổng số dòng,12259199,12259199,True
-Dòng trùng,71299,71299,True
+metric,pandas (from file),spark (from file),match
+Total rows,12259199,12259199,True
+Duplicate rows,71299,71299,True
 Originated,6197085,6197085,True
 Denied,2103462,2103462,True
 income <= 0,165254,165254,True

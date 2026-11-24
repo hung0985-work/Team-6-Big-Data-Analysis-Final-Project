@@ -1,4 +1,4 @@
-column,type_pandas,type_spark,khớp
+column,type_pandas,type_spark,match
 action_taken,string,string,True
 income,double,double,True
 debt_to_income_ratio,string,string,True
