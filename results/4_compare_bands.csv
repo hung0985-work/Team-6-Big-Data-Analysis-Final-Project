@@ -1,4 +1,4 @@
-biến,band,count_pandas,count_spark,khớp
+variable,band,count_pandas,count_spark,match
 dti_band,20-<30%,1070929,1070929,True
 dti_band,30-<36%,1097751,1097751,True
 dti_band,36-43%,2084592,2084592,True
